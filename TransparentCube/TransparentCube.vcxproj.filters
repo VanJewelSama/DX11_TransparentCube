@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3f3c2c56-3065-43c5-8092-fce1228af9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RHI">
+      <UniqueIdentifier>{ed9f61c5-ee39-4dc3-9ba1-3b40ab49e0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{922dfa88-cd9d-4519-b2ae-d0d51457469d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{20ecde7f-7710-46b0-86d7-677668f8d974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b7c1d2e3-4f5a-4678-9abc-def012345678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{f1e2d3c4-b5a6-4978-8abc-def012345678}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\DemoMain.cpp" />
+    <ClCompile Include="src\Core\Input.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Window.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RHI\D3D11Device.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RHI\RenderTarget.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\FullscreenPass.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\PlanarMirror.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\PostProcess.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\Shader.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\ShadowMap.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Actor.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\AssetManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Camera.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Light.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Mesh.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Texture.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClInclude Include="src\Core\Input.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\PathUtil.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Timer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Window.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RHI\D3D11Device.h">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RHI\D3D11State.h">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RHI\RenderTarget.h">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer\FullscreenPass.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer\PlanarMirror.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer\PostProcess.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer\Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer\Shader.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer\ShadowMap.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Actor.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\AssetManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Camera.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\CameraManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\CameraViewInfo.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Light.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Material.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Mesh.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Texture.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <None Include="shaders\Cube.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Shadow.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\PostProcess.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Mirror.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\FXAA.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Unlit.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Toon.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assets\img_cube.JPG">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="assets\img_cube_2.JPG">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="assets\normal_tian.png">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>
